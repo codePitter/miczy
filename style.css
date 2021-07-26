@@ -1,6 +1,25 @@
+/*
+Paletta: (https://colorhunt.co/palette/ffe194e8f6efb8dfd84c4c6d)
+    rgb(255, 225, 148)
+    rgb(232, 246, 239)
+    rgb(184, 223, 216)
+    rgb(76, 76, 109)
+    
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
 .logo-brand{
-    height: 4em;
+    height: 70px;
     margin-left: 20px;
+    
 }
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -9,11 +28,392 @@
     -moz-user-select: none;
     user-select: none;
 }
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    text-transform: capitalize;
+    }
+a{
+    text-decoration: none;
+    }
+.navbarDropdown {
+    background-color: #FCD8D4;
+    border: none;
+} 
 
+.separador {
+    color: black;
+}
+li a ul li {
+    background-color: #FCD8D4;
+}
+.navbarDropdown {
+    background-color: #FCD8D4;
+}
+a .nav-link {
+    color: black;
+}
+a .dropdown-item {
+    color: black;
+}
+.card img{
+    cursor: pointer;
 
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    }
+.content{
+    width: 24%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .4s;
+    }
+.content:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: translate(0px, -8px);
+    transition: .6s;
+    }
+    
+body > nav {
+    background-color: #FCD8D4;
+}
 
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding: 0 8px;
+    }
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+    }
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    }
+    .dropdown-menu.show{
+        background-color: #FCD8D4;
+    }
+
+li{
+    padding: 5px;
+    }
+.fa{
+    color: #ff9f43;
+    font-size: 26px;
+    transition: .4s;
+    }
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+    }
+button{
+    line-height: inherit;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border:0px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+.buy-1 > a:hover, .buy-1 > a{
+    color: #000000;
+}
+small > a{
+    color: #000000;
+}
+small > a:hover{
+    color: white;
+}
+.card {
+    margin: 10px auto;
+
+}
+a:hover{
+    color: white;
+};
+.sharethis-inline-share-buttons {
+    position: fixed;
+    right: 0;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.comprar {
+    color: #000000;
+}
+.buy-1{
+    background-color: rgb(184, 223, 216);
+    }
+.buy-2{
+    background-color: rgb(184, 223, 216);
+    }
+.buy-3{
+    background-color: rgb(184, 223, 216);
+    }
+li > a:hover{
+    color: white !important;
+    }
+figcaption a{
+    font-size: 0.7rem;
+}
+/* inicio estilos productos*/  
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.pbg {
+}
+.pbgpremium {
+}
+.pbgoutlet {
+}
+.card {
+    width: 250px;
+    border-radius: 10px;
+    background: rgb(244,244,244);
+    background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.014443277310924318) 68%);
+}
+.card-img-top {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px
+
+}
+
+span.text-muted {
+    font-size: 12px
+}
+
+small.text-muted {
+    font-size: 8px
+}
+h5 a:hover{
+    color: white;
+}
+
+li a:hover{
+    color: white;
+}
+
+h5.mb-0 {
+    font-size: 1rem
+}
+small.ghj {
+    font-size: 9px
+}
+
+.mid > p{
+    color: black;
+}
+
+h6.ml-1 {
+    font-size: 13px
+}
+.footerlink:hover {
+    color: white;
+
+}
+small.key {
+    text-decoration: underline;
+    font-size: 9px;
+    cursor: pointer
+}
+
+.btn-danger {
+    color: #FFCBD2
+}
+
+.btn-danger:focus {
+    box-shadow: none
+}
+
+small.justify-content-center {
+    font-size: 9px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.page-item > a:hover{
+    background-color: #5ffcfc;
+}
+/* fin estilos productos*/  
+@media(max-width: 1000px){
+    .content{
+    width: 46%;
+    }
+    .carouselContent {
+      width: 100%;
+      margin-top: 0px;
+    }
+}
+@media(max-width: 750px){
+    .content{
+    width: 70%;
+    }
+        display: block;
+    }
+
+@media(max-width:575.98px){
+    button{
+        width: auto;
+        margin: auto;
+    }
+}
+.captionsub {
+
+    color: white;
+    font-size: 1em;
+}
+
+h2 {
+    text-shadow: 1px 1px #000000;
+    text-transform: uppercase;
+
+}
+
+.card-body .btn {
+    background-color: rgb(184, 223, 216);
+    color: black;
+    font-size: 1rem;
+     
+}
+.card-body .btn:hover {
+    background-color: rgb(76, 76, 109);  
+}
+.vermas{
+    width: 100%;
+    text-align: center;
+}
+
+.vermasbutton{
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: rgb(184, 223, 216);
+    border-radius: 5px;
+}
+
+.btn:focus{
+    box-shadow: none !important;
+}
+.sign a:hover{
+    color: black;
+}
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
     font-size: 3.5rem;
     }
 }
+
+a{
+    color:white;
+  }
+  .shfooter .collapse {
+    display: inherit;
+  }
+
+  @media (max-width:767px) {
+    .shfooter ul {
+      margin-bottom: 0;
+    
+    }
+  
+    .shfooter .collapse {
+      display: none;
+    }
+  
+    .shfooter .collapse.show {
+      display: block;
+      
+    }
+  
+    .shfooter .title .fa-angle-up,
+    .shfooter .title[aria-expanded=true] .fa-angle-down {
+      display: none;
+    }
+  
+    .shfooter .title[aria-expanded=true] .fa-angle-up {
+      display: block;
+        width: 100%;
+    }
+  
+    .shfooter .navbar-toggler {
+      display: inline-block;
+      padding: 0;
+    }
+  
+  }
+  
+  .resize {
+    text-align: center;
+  }
+  .resize {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+  }
+  /*RESIZESCREEN ANIMATION*/
+  .fa-angle-double-right {
+    animation: rightanime 1s linear infinite;
+  }
+  
+  .fa-angle-double-left {
+    animation: leftanime 1s linear infinite;
+  }
+  @keyframes rightanime {
+    50% {
+      transform: translateX(10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(10px);
+      opacity: 0;
+    }
+  }
+  @keyframes leftanime {
+    50% {
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(-10px);
+      opacity: 0;
+    }
+  }
+  

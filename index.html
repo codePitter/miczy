@@ -7,181 +7,43 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/img/logo.png" />
     <!-- bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <!---Google fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/assets/CSS/Custom.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/assets/css/Custom.css" type="text/html">
     <title>Miczy - Calzados</title>
-    <style type="text/css">
-        h3{
-        text-align: center;
-        font-size: 30px;
-        margin: 0;
-        padding-top: 10px;
-        }
-        a{
-        text-decoration: none;
-        }
-        .gallery{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin: 50px 0;
-        }
-        .content{
-        width: 24%;
-        margin: 15px;
-        box-sizing: border-box;
-        float: left;
-        text-align: center;
-        border-radius:10px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding-top: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        transition: .4s;
-        }
-        .content:hover{
-        box-shadow: 0 0 11px rgba(33,33,33,.2);
-        transform: translate(0px, -8px);
-        transition: .6s;
-        }
-
-        p{
-        text-align: center;
-        color: #b2bec3;
-        padding: 0 8px;
-        }
-        h6{
-        font-size: 26px;
-        text-align: center;
-        color: #222f3e;
-        margin: 0;
-        }
-        ul{
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        }
-        li{
-        padding: 5px;
-        }
-        .fa{
-        color: #ff9f43;
-        font-size: 26px;
-        transition: .4s;
-        }
-        .fa:hover{
-        transform: scale(1.3);
-        transition: .6s;
-        }
-        button{
-          line-height: inherit;
-        text-align: center;
-        font-size: 24px;
-        color: #fff;
-        width: 100%;
-        padding: 15px;
-        border:0px;
-        outline: none;
-        cursor: pointer;
-        margin-top: 5px;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        }
-        .buy-1{
-        background-color: #2183a2;
-        }
-        .buy-2{
-        background-color: #3b3e6e;
-        }
-        .buy-3{
-        background-color: #0b0b0b;
-        }
-        @media(max-width: 1000px){
-        .content{
-        width: 46%;
-        }
-        .carouselContent {
-          width: 100%;
-          height: auto;
-        }
-        }
-        @media(max-width: 750px){
-        .content{
-        width: 100%;
-        }
-        }
-      </style>
   </head>
   <body>
     <!-- Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light  bg-light position-relative" style="position: sticky; top: 0; width: 100%; height: auto;">
-      <div class="container-fluid" style="background-color: white">
-        <div class="logo">
-          <a href="index.htlm">
-            <img
-              class="logo-brand"
-              src="/assets/img/Copia_de_seguridad_de_logo.png"
-            />
+    <nav class="navbar navbar-expand-lg position-relative py-1" style="position: sticky !important;   top:  0; width: 100%; height: auto; z-index: 99; padding: 0; ">
+      <div class="container-fluid">
+        <div class="logo col-xs-6 col-sm-8 col-md-4 col-lg-3">
+          <a href="/index.html">
+            <img class="logo-brand" src="/assets/img/Copia_de_seguridad_de_logo.png" style="z-index: 1000;"/>
           </a>
         </div>
-        <button
-          class="navbar-toggler position-relative"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler col-xs-6 col-sm-4 col-md-8 col-lg-9 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:none;">
+          <i class="fas fa-bars text-dark"></i>
         </button>
-        <div
-          class="collapse navbar-collapse sticky-sm-top"
-          id="navbarSupportedContent"
-        >
+        <div class="collapse navbar-collapse sticky-sm-top" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-            <li class="nav-item me-5">
-              <a class="nav-link active" aria-current="page" href="index.html">
-                Inicio</a
-              >
-            </li>
-            <li class="nav-item me-5">
-              <a class="nav-link" href="#">Productos</a>
+            <li class="nav-item me-5  ">
+              <a class="nav-link" aria-current="page" href="index.html" style="color: black; font-size: 1.25em;">Inicio</a>
             </li>
             <li class="nav-item dropdown me-5">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >Tienda Online</a
-              >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Miczy Premiun</a></li>
-                <li><a class="dropdown-item" href="#"></a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Miczy Outlet</a></li>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black; font-size: 1.25em;">Productos</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #FCD8D4; border: none;">
+                <hr class="m-0">
+                <li><a style="color: black;" class="dropdown-item" href="/productos1.html">Todo</a></li>
+                <hr class="m-0">
+                <li><a style="color: black;" class="dropdown-item" href="/premium.html">Miczy Premium</a></li>
+                <li><a style="color: black;" class="dropdown-item" href="/outlet.html">Miczy Outlet</a></li>
               </ul>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link active" aria-current="page" href="about.html"
-                >Sobre Nosotros</a
-              >
+              <a class="nav-link" aria-current="page" href="about.html" style="color: black; font-size: 1.25em;">Sobre Nosotros</a>
             </li>
           </ul>
         </div>
@@ -191,107 +53,57 @@
     <!-- Inicio Carousel-->
     <div class="carouselContent">
       <div class="d-flex flex-column h-100 position-relative">
-        <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-        >
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-          style="width: 30px; height: 3px;" ></button>
-          <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-          style="width: 30px; height: 3px;"></button>
-          <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-          style="width: 30px; height: 3px;"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="width: 30px; height: 3px;" >
+          </button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="width: 30px; height: 3px;">
+          </button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="width: 30px; height: 3px;">
+          </button>
         </div>
       <div class="carousel-inner" style="position: relative;">
         <div class="carousel-item active">
-          <img
-            src="/assets/img/banner3.jpg"
-            class="d-block w-100" alt="Mujer en primavera con calzado de temporada primavera"/>
-          <div
-            class="carousel-caption d-none d-md-block rounded mb-5 p-0"
-            style="background-color: rgba(78, 83, 94, 0.342);"
-          >
+          <img src="/assets/img/banner3.jpg" class="d-block w-100" alt="Mujer en primavera con calzado de temporada primavera" style="max-height: 90vh;"/>
+          <div class="carousel-caption d-none d-md-block rounded mb-5 p-0" style="background-color: rgba(78, 83, 94, 0.342);">
             <h2>Avance de temporada</h2>
-            <p>Some representative placeholder content for the first slide.</p>
+            <p class="captionsub">Las mejores selecciones para esta primavera.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="/assets/img/banner2.jpg"
-            class="d-block w-100"
-            alt="Mujer en escalera con calzado de temporada invierno"
-          />
-          <div
-            class="carousel-caption d-none d-md-block rounded mb-5 p-0"
-            style="background-color: rgba(78, 83, 94, 0.342);"
-          >
-            <h2>Second slide label</h2>
-            <p>Some representative placeholder content for the second slide.</p>
+          <img src="/assets/img/banner2.jpg" class="d-block w-100" alt="Mujer en escalera con calzado de temporada invierno" style="max-height: 90vh;"/>
+          <div class="carousel-caption d-none d-md-block rounded mb-5 p-0" style="background-color: rgba(78, 83, 94, 0.342);">
+            <h2>Productos HOT</h2>
+            <p class="captionsub">Acá vas a encontrar lo más demandado.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img
-            src="/assets/img/banner1.jpg"
-            class="d-block w-100"
-            alt="Mujer con calzado de verano en las manos"
-          />
-          <div
-            class="carousel-caption d-none d-md-block rounded mb-5 p-0"
-            style="background-color: rgba(78, 83, 94, 0.342);"
-          >
-            <h2>Third slide label</h2>
-            <p>Some representative placeholder content for the third slide.</p>
+          <img src="/assets/img/banner1.jpg" class="d-block w-100" alt="Mujer con calzado de verano en las manos" style="max-height: 90vh;"/>
+          <div class="carousel-caption d-none d-md-block rounded mb-5 p-0" style="background-color: rgba(78, 83, 94, 0.342);">
+            <h2>Sale Time!</h2>
+            <p class="captionsub">Increibles descuentos en articulos seleccionados.</p>
           </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span class="visually-hidden">Previa</span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden">siguiente</span>
       </button>
       </div>
     </div>
     <!-- fin Carousel-->
     <!-- Inicio productos-->
+    <div class="display-5 mt-5 text-center">DESTACADOS</div>
     <div class="gallery">
         <div class="content">
-          <img src="shoes.png" style="width: 200px;
-          height: 200px;
-          text-align: center;
-          margin: 0 auto;
-          display: block;">
-          <h3>Shoes</h3>
+          <img src="/assets/img/foto1.jpg" style="width: 200px; height: 200px; text-align: center; margin: 0 auto; display: block;">
+          <h3>Botas</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <h6>$100.00</h6>
+          <h6>$999</h6>
           <ul>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -299,17 +111,15 @@
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
           </ul>
-          <button class="buy-1">Buy Now</button>
+          <button class="buy-1" onClick="location.href='https://api.whatsapp.com/send?phone=543413992316'">
+            <span class="comprar">Comprar ahora</span>
+          </button>
         </div>
         <div class="content">
-          <img src="earphone.png" style="width: 200px;
-          height: 200px;
-          text-align: center;
-          margin: 0 auto;
-          display: block;">
-          <h3>Earphone</h3>
+          <img src="/assets/img/foto10.jpg" style="width: 200px; height: 200px; text-align: center; margin: 0 auto;   display: block;">
+          <h3>Bota de lona</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <h6>$40.00</h6>
+          <h6>$999</h6>
           <ul>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -317,17 +127,15 @@
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
           </ul>
-          <button class="buy-2">Buy Now</button>
+          <button class="buy-1" onClick="location.href='https://api.whatsapp.com/send?phone=543413992316'">
+            <span class="comprar">Comprar ahora</span>
+          </button>
         </div>
         <div class="content">
-          <img src="watch.png" style="width: 200px;
-          height: 200px;
-          text-align: center;
-          margin: 0 auto;
-          display: block;">
-          <h3>Watch</h3>
+          <img src="/assets/img/foto11.jpg" style="width: 200px; height: 200px; text-align: center; margin: 0 auto; display: block;">
+          <h3>Botas plataforma</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <h6>$70.84</h6>
+          <h6>$999</h6>
           <ul>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -335,52 +143,157 @@
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
             <li><i class="fa fa-star" aria-hidden="true"></i></li>
           </ul>
-          <button class="buy-3">Buy Now</button>
+          <button class="buy-1" onClick="location.href='https://api.whatsapp.com/send?phone=543413992316'">
+            <span class="comprar">Comprar ahora</span>
+          </button>
         </div>
       </div>
-            <!-- product -->
-
+      <div class="gallery">
+        <div class="content">
+          <img src="/assets/img/foto12.jpg" style="width: 200px; height: 200px; text-align: center; margin: 0 auto;display: block;">
+          <h3>Botas altas</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h6>$999</h6>
+          <ul>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          </ul>
+          <button class="buy-1" onClick="location.href='https://api.whatsapp.com/send?phone=543413992316'">
+            <span class="comprar">Comprar ahora</span>
+          </button>
+        </div>
+        <div class="content">
+          <img src="/assets/img/foto13.jpg" style="width: 200px; height: 200px; text-align: center; margin: 0 auto; display: block;">
+          <h3>Zapatillas cuerina</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h6>$999</h6>
+          <ul>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          </ul>
+          <button class="buy-1" onClick="location.href='https://api.whatsapp.com/send?phone=543413992316'">
+            <span class="comprar">Comprar ahora</span>
+          </button>
+        </div>
+        <div class="content">
+          <img src="/assets/img/foto13.jpg" style="width: 200px; height: 200px; text-align: center; margin: 0 auto; display: block;">
+          <h3>Zapatillas cuerina</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h6>$999</h6>
+          <ul>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          </ul>
+          <button class="buy-1" onClick="location.href='https://api.whatsapp.com/send?phone=543413992316'">
+            <span class="comprar">Comprar ahora</span>
+          </button>
+        </div>
+      </div>
+      <!--<div class="vermas my-5">
+        <button class="vermasbutton w-25">Ver más</button>
+      </div>--!>
             <!-- end product -->
         </div>
-        </div>
       <!-- Inicio footer-->
-
-      <main class="flex-shrink-0">
-        <div class="container">
-          <h1 class="mt-5">Sticky footer</h1>
-          <p class="lead">
-            Pin a footer to the bottom of the viewport in desktop browsers with
-            this custom HTML and CSS.
-          </p>
-          <p>
-            Use
-            <a href="../examples/sticky-footer-navbar/"
-              >the sticky footer with a fixed navbar</a
-            >
-            if need be, too.
-          </p>
+    <footer id="footer" class="text-white d-flex-column text-center" style="background-color: rgb(76, 76, 109);z-index: 97;">
+      <hr class="mt-0">
+      <!--Socials buttons-->
+      <div class="text-center">
+        <h4>Encontranos en:</h4>
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">
+            <a href="#!" class="sbtn btn-large mx-1" target="_blank" title="Facebook">
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/miczy2021/" target="_blank" class="sbtn btn-large mx-1" title="Instagram">
+              <i class="fab fa-instagram-square fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--/.Socials buttons-->
+      <hr class="mb-0">
+      <!--Footer Links-->
+      <div class="container text-left text-md-center">
+        <div class="row">
+          <!--Sobre nosotros footer-->
+          <div class="col-md-3 mx-auto shfooter">
+            <h5 class="my-2 font-weight-bold d-none d-md-block"><a href="/about.html"> Sobre nosotros</a></h5>
+            <div class="d-md-none title" data-target="#aboutus" data-toggle="collapse">
+              <div class="mt-3 font-weight-bold"><a href="/about.html"> Sobre nosotros</a>
+              </div>
+            </div>
+          </div>
+          <!--/.Sobre nosotros footer-->
+          
+          <!--Produtos footer-->
+          <div class="col-md-3 mx-auto shfooter">
+            <h5 class="my-2 font-weight-bold d-none d-md-block">Productos</h5>
+            <div class="d-md-none title" data-target="#Product" data-toggle="collapse" aria-expanded="false">
+              <div class="mt-3 font-weight-bold">Productos
+                <div class="float-right navbar-toggler">
+                  <i class="fas fa-angle-down"></i>
+                  <i class="fas fa-angle-up"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="list-unstyled collapse p-0" id="Product">
+              <!--<li><a href="#">Avance de temporada</a></li>-->
+              <li><a href="/premium.html">Premium</a></li>
+              <li><a href="/outlet.html">Outlet</a></li>
+            </ul>
+          </div>
+          <!--/.Productos footer-->
+         <!--Tienda online footer
+          <div class="col-md-3 mx-auto shfooter">
+            <h5 class="my-2 font-weight-bold d-none d-md-block">Tienda Online</h5>
+            <div class="d-md-none title" data-target="#tonline" data-toggle="collapse">
+              <div class="mt-3 font-weight-bold">Tienda Online
+              </div>
+            </div>
+          </div>
+          Tienda online footer-->
+          <!--Contaco footer-->
+          <div class="col-md-3 mx-auto shfooter">
+            <h5 class="my-2 font-weight-bold d-none d-md-block">Contacto</h5>
+            <div class="d-md-none title" data-target="#Product" data-toggle="collapse" aria-expanded="false">
+              <div class="mt-3 font-weight-bold">Contacto
+                <div class="float-right navbar-toggler">
+                  <i class="fas fa-angle-down"></i>
+                  <i class="fas fa-angle-up"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="list-unstyled collapse p-0" id="Product">
+              <li><a href="https://api.whatsapp.com/send?phone=543413992316">Miczy</a></li>
+            </ul>
+          </div>
+          <!--/.Contaco footer-->
         </div>
-      </main>
-
-      <footer class="footer mt-auto py-3 bg-light">
-        <div class="container">
-          <span class="text-muted">Place sticky footer content here.</span>
-        </div>
-      </footer>
-      <!-- Fin footer-->
-    </div>
-
+      </div>
+      <!--/.Footer Links-->
+      <hr class="mb-0">
+      <!--firma-->
+      <div class="py-3 text-end mx-5" style="font-size: 10px;">
+        Desarrollado por:<i class="sign"><a href="mailto:pitterbck@gmail.com"> Pitter</a></i>
+      </div>
+      <!--/.firma-->
+    </footer>
+    <!-- Fin footer-->
     <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-  <link
-    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-    rel="stylesheet"
-  />
-
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c23007a04b.js" crossorigin="anonymous"></script></body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </html>
