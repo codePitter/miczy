@@ -240,13 +240,13 @@
         <button class="vermasbutton w-25">Ver más</button>
       </div>--!>
             <!-- end product -->
-            <div class="btn-whatsapp">
+            <div class="btn-whatsapp" style="z-index: 1000000;">
               <a href="https://api.whatsapp.com/send?phone=543413992316" target="_blank">
               <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
               </a>
               </div>
         </div>
-      <!-- Inicio footer-->
+    <!-- Inicio footer-->
     <footer id="footer" class="text-white d-flex-column text-center" style="background-color: rgb(76, 76, 109);z-index: 97;">
       <hr class="mt-0">
       <!--Socials buttons-->
@@ -268,36 +268,41 @@
       <!--/.Socials buttons-->
       <hr class="mb-0">
       <!--Footer Links-->
-      <div class="container text-left text-md-center">
+      <div class="row container text-md-center mx-auto">
         <div class="row">
-          <!--Sobre nosotros footer-->
-          <div class="col-md-3 mx-auto shfooter">
-            <h5 class="my-2 font-weight-bold d-none d-md-block"><a href="/about.html"> Sobre nosotros</a></h5>
-            <div class="d-md-none title" data-target="#aboutus" data-toggle="collapse">
-              <div class="mt-3 font-weight-bold"><a href="/about.html"> Sobre nosotros</a>
-              </div>
-            </div>
-          </div>
-          <!--/.Sobre nosotros footer-->
-          
           <!--Produtos footer-->
-          <div class="col-md-3 mx-auto shfooter">
+          <div class="col-sm-4 mx-auto shfooter">
             <h5 class="my-2 font-weight-bold d-none d-md-block">Productos</h5>
-            <div class="d-md-none title" data-target="#Product" data-toggle="collapse" aria-expanded="false">
-              <div class="mt-3 font-weight-bold">Productos
-                <div class="float-right navbar-toggler">
-                  <i class="fas fa-angle-down"></i>
-                  <i class="fas fa-angle-up"></i>
+            <div class="container">
+              <div class="d-md-none title" data-target="#Product" data-toggle="collapse" aria-expanded="false">
+                <div class="mt-3 font-weight-bold">Productos
+                  <div class="float-right navbar-toggler">
+                    <i class="fas fa-angle-down"></i>
+                    <i class="fas fa-angle-up"></i>
+                  </div>
                 </div>
               </div>
+              <ul class="list-unstyled collapse p-0" id="Product">
+                  <li><a href="/zapatillas.html">Zapatillas</a></li>
+                  <li><a href="/zapatillasGUMMI.html">Zapatillas GUMMI</a></li>
+                  <li><a href="/botas.html">Botas</a></li>
+                  <li><a href="/borcegos.html">Borcegos</a></li>
+                  <li><a href="/pantubotas.html">Pantubotas</a></li>
+                  <li><a href="/hombres.html">Calzados Hombre</a></li>
+                  <li><a href="/kids.html">Calzados Kids</a></li>
+              </ul>
             </div>
-            <ul class="list-unstyled collapse p-0" id="Product">
-              <!--<li><a href="#">Avance de temporada</a></li>-->
-              <li><a href="/premium.html">Premium</a></li>
-              <li><a href="/outlet.html">Outlet</a></li>
-            </ul>
           </div>
           <!--/.Productos footer-->
+                    <!--Sobre nosotros footer-->
+                    <div class="col-sm-4 mx-auto shfooter">
+                      <h5 class="my-2 font-weight-bold d-none d-md-block"><a href="/about.html"> Sobre nosotros</a></h5>
+                      <div class="d-md-none title" data-target="#aboutus" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold"><a href="/about.html"> Sobre nosotros</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/.Sobre nosotros footer-->        
          <!--Tienda online footer
           <div class="col-md-3 mx-auto shfooter">
             <h5 class="my-2 font-weight-bold d-none d-md-block">Tienda Online</h5>
@@ -308,7 +313,7 @@
           </div>
           Tienda online footer-->
           <!--Contaco footer-->
-          <div class="col-md-3 mx-auto shfooter">
+          <div class="col-sm-4 mx-auto shfooter">
             <h5 class="my-2 font-weight-bold d-none d-md-block">Contacto</h5>
             <div class="d-md-none title" data-target="#Product" data-toggle="collapse" aria-expanded="false">
               <div class="mt-3 font-weight-bold">Contacto

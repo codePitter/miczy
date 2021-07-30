@@ -91,6 +91,7 @@ a .dropdown-item {
     
 body > nav {
     background-color: white;
+    box-shadow: 0 0 0 1px black;
 }
 body > nav a:hover{
     color: rgb(16, 0, 163) !important;
