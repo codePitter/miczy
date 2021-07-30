@@ -198,12 +198,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.pbg {
-}
-.pbgpremium {
-}
-.pbgoutlet {
-}
 .card {
     width: 250px;
     border-radius: 10px;
@@ -212,8 +206,8 @@ body {
 }
 .card-img-top {
     border-top-right-radius: 10px;
-    border-top-left-radius: 10px
-
+    border-top-left-radius: 10px;
+    cursor: default !important;
 }
 
 span.text-muted {
