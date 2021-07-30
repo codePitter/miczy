@@ -90,7 +90,10 @@ a .dropdown-item {
     }
     
 body > nav {
-    background-color: #FCD8D4;
+    background-color: white;
+}
+body > nav a:hover{
+    color: rgb(16, 0, 163) !important;
 }
 
 p{
