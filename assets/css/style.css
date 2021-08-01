@@ -82,6 +82,10 @@ a .dropdown-item {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: .4s;
     }
+.card-cont{
+    max-width: 340px;
+};
+
 .bg-gallery{
     background-image: url(/assets/img/bgShe.png);
     background-size:cover;
