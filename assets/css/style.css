@@ -167,6 +167,16 @@ small > a{
 small > a:hover{
     color: white;
 }
+.atrib{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    font-size: 10px;
+    background-color: #4f565e;
+    text-decoration: none;
+    color:white;
+};
 .card {
     margin: 10px auto;
     background: rgb(184,223,216);
@@ -305,7 +315,6 @@ small.justify-content-center {
     }
 }
 .captionsub {
-
     color: white;
     font-size: 1em;
 }
